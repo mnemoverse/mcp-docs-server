@@ -1,0 +1,63 @@
+{
+  "name": "@mcp-x/mcp-docs-server",
+  "version": "1.0.0",
+  "description": "Universal MCP Server Demo - Template for documentation-based MCP servers",
+  "main": "dist/server.js",
+  "type": "module",
+  "bin": "dist/server.js",
+  "files": [
+    "dist/**/*",
+    "docs/**/*",
+    "README.md",
+    "TEMPLATE.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec tsx src/server.ts",
+    "start": "node dist/server.js",
+    "test": "jest",
+    "prepublishOnly": "npm run build",
+    "template:create": "node scripts/create-template.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "template",
+    "documentation",
+    "demo",
+    "ai",
+    "claude",
+    "cursor",
+    "vscode",
+    "windsurf"
+  ],
+  "author": "MCP-X Organization",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mnemoverse/mcp-docs-server.git"
+  },
+  "homepage": "https://github.com/mnemoverse/mcp-docs-server#readme",
+  "bugs": {
+    "url": "https://github.com/mnemoverse/mcp-docs-server/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "express": "^4.18.0",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.0.0",
+    "nodemon": "^3.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

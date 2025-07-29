@@ -1,0 +1,34 @@
+# Source files
+src/
+tsconfig.json
+
+# Development files
+*.log
+.env
+.DS_Store
+coverage/
+.nyc_output/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.cursor/
+.idea/
+
+# Template files
+TEMPLATE.md
+scripts/create-template.js
+
+# Testing
+tests/
+*.test.js
+*.test.ts
+
+# Build artifacts (keep dist)
+node_modules/
+
+# Documentation (keep docs)
+# README.md - keep this
