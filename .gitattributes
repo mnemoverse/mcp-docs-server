@@ -1,0 +1,27 @@
+# Auto normalize line endings for all text files
+* text=auto
+
+# TypeScript/JavaScript - force LF
+*.ts text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+
+# Shell scripts - force LF
+*.sh text eol=lf
+
+# Config files - force LF
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+
+# Documentation - force LF
+*.md text eol=lf
+*.txt text eol=lf
+
+# Binary files - no conversion
+*.png binary
+*.jpg binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
