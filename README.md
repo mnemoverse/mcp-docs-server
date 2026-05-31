@@ -1,4 +1,6 @@
-# @mcp-x/mcp-docs-server
+# @mnemoverse/mcp-docs-server
+
+> ⚠️ **DEPRECATED / RETIRED.** This package is a **demo/template** for documentation-based MCP servers — it is **not** the Mnemoverse documentation. It has been retired from the Mnemoverse infrastructure to avoid confusion with **`@mnemoverse/mcp-memory-server`** (the Mnemoverse memory MCP). The npm release `@mnemoverse/mcp-docs-server@1.0.1` is deprecated — please do not depend on it. For Mnemoverse memory use **`@mnemoverse/mcp-memory-server`**; the template below is kept for reference only.
 
 Universal MCP Server Demo - Template for creating documentation-based MCP servers
 

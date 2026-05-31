@@ -1,7 +1,7 @@
 {
-  "name": "@mcp-x/mcp-docs-server",
-  "version": "1.0.0",
-  "description": "Universal MCP Server Demo - Template for documentation-based MCP servers",
+  "name": "@mnemoverse/mcp-docs-server",
+  "version": "1.0.1",
+  "description": "[DEPRECATED] Demo/template MCP docs server — retired to avoid confusion with @mnemoverse/mcp-memory-server (the Mnemoverse memory MCP). Not the Mnemoverse documentation.",
   "main": "dist/server.js",
   "type": "module",
   "bin": "dist/server.js",
