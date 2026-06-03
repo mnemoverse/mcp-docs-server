@@ -17,7 +17,7 @@ This is a **universal template** for creating MCP (Model Context Protocol) serve
 
 ### Use as template:
 ```bash
-npx @mcp-x/mcp-docs-server create my-docs-server
+npx @mnemoverse/mcp-docs-server create my-docs-server
 cd my-docs-server
 npm install
 npm run build
@@ -26,7 +26,7 @@ npx your-package-name  # Test your server
 
 ### Test the demo:
 ```bash
-npx @mcp-x/mcp-docs-server
+npx @mnemoverse/mcp-docs-server
 # ✅ MCP Server ready for STDIO communication
 ```
 
