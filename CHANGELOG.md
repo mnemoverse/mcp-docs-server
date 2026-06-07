@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] — DEPRECATED
+
+### Changed
+- **Retired.** Published to npm as `@mnemoverse/mcp-docs-server@1.0.1`, then deprecated:
+  this is a demo/template, **not** the Mnemoverse documentation. Removed from the
+  Mnemoverse infrastructure to avoid confusion with `@mnemoverse/mcp-memory-server`
+  (the Mnemoverse memory MCP).
+- Renamed the package `@mcp-x/mcp-docs-server` → `@mnemoverse/mcp-docs-server` to match
+  the published name.
+
 ## [1.0.0] - 2025-07-29
 
 ### Added
